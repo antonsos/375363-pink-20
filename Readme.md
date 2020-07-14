@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Антон Никулин](https://up.htmlacademy.ru/adaptive/20/user/375363).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Лялихов](https://htmlacademy.ru/profile/id983003).
 
 ---
 
