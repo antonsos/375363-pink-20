@@ -2,11 +2,147 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>Пинк</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+  <body class="page__body">
+    <!--############### main-header ###############-->
+    <header class="page__header main-header">
+      <div class="main-header__logo logo">
+        <a class="logo__link">
+          <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Пинк">
+        </a>
+      </div>
+      <!--############### main-nav ###############-->
+      <nav class="main-header__main-nav main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list nav-list">
+            <li class="nav-list__item nav-list__item--active">
+              <a>
+                Главная
+              </a>
+            </li>
+            <li class="nav-list__item">
+              <a href="photo.html">
+                Фотографии
+              </a>
+            </li>
+            <li class="nav-list__item">
+              <a href="form.html">
+                Конкурс
+              </a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#">
+                HTML Academy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--############### main ###############-->
+    <main class="page-main">
+      <h1 class="visually-hidden">Пинк - жизнь в розовых тонах</h1>
+      <!--############### lead ###############-->
+      <section class="page-main__lead lead">
+        <div class="lead__lead-preview lead-preview">
+          <h2 class="lead-preview__title">
+            Взгляните на жизнь иначе!
+          </h2>
+          <div class="lead-preview__picture">
+            <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Новый взгляд">
+          </div>
+        </div>
+        <section class="lead__lead-download lead-download">
+          <div class="lead-download__button-wrapper">
+            <button class="lead-download__button" type="button">
+              Скачать приложение
+            </button>
+          </div>
+          <section class="lead-download__for-devices">
+            <div class="lead-download__icons">
+              <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Apple">
+              <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Android">
+              <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Windows">
+            </div>
+            <p class="lead-download__for-which">
+              Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+            </p>
+          </section>
+        </section>
+      </section>
+      <!--############### offer ###############-->
+      <section class="page-main__offer offer">
+        <div class="offer__wrapper">
+          <p class="offer__title">
+            <span class="offer__request">Устали от серости мегаполиса?</span>
+            <span class="offer__answer">Нам есть, что вам предложить!</span>
+          </p>
+        </div>
+        <div class="offer__description description">
+          <dl class="description__list">
+            <dt class="description__term">
+              Поднимает настроение
+            </dt>
+            <dd class="description__definition">
+              Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+            </dd>
+            <dt class="description__term">
+              Меняет мир вокруг
+            </dt>
+            <dd class="description__definition">
+              Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+            </dd>
+            <dt class="description__term">
+              Заводит новых друзей
+            </dt>
+            <dd class="description__definition">
+              Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+            </dd>
+          </dl>
+        </div>
+        <div class="description__pictures">
+          <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Смайлик">
+        </div>
+      </section>
+    </main>
+    <!--############### main-footer ###############-->
+    <footer class="main-footer">
+      <div class="main-footer__logo logo">
+        <a class="logo__link logo__link--footer">
+          <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Пинк">
+        </a>
+      </div>
+      <div class="main-footer links">
+        <ul class="links__list">
+          <li class="links__item">
+            <a href="#">
+              <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Twitter">
+            </a>
+          </li>
+          <li class="links__item">
+            <a href="#">
+              <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Facebook">
+            </a>
+          </li>
+          <li class="links__item">
+            <a href="#">
+              <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Youtube">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__copyright copyright">
+        <a href="#" class="copyright__link">
+          <p class="copyright__text">Разработано</p>
+          <div class="copyright__logo">
+            <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="HTML Academy">
+          </div>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

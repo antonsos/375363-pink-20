@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Пинк</title>
+</head>
+  <body class="page__body">
+    <!--############### main-header ###############-->
+    <header class="page__header main-header">
+      <div class="main-header__logo logo">
+        <a class="logo__link">
+          <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Пинк">
+        </a>
+      </div>
+      <!--############### main-nav ###############-->
+      <nav class="main-header__main-nav main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list nav-list">
+            <li class="nav-list__item">
+              <a href="index.html">
+                Главная
+              </a>
+            </li>
+            <li class="nav-list__item nav-list__item--active">
+              <a>
+                Фотографии
+              </a>
+            </li>
+            <li class="nav-list__item">
+              <a href="form.html">
+                Конкурс
+              </a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#">
+                HTML Academy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--############### main ###############-->
+    <main class="page-main main">
+      <!--############### lead ###############-->
+      <section class="page-main__lead lead">
+        <div class="lead__lead-preview lead-preview lead-preview--small">
+          <h2 class="lead-preview__title">
+            Фотографии пользователей
+          </h2>
+        </div>
+      </section>
+      <!--############### photo-gallery ###############-->
+      <section class="page-main__photo-gallery photo-gallery">
+        <div class="photo-gallery__lead">
+          <p class="photo-gallery__lead-text">
+            Взгляните на фотографии, которые выкладывают пользователи!
+            Видите, как не хватает ваших?
+          </p>
+        </div>
+        <div class="photo-gallery__wrapper">
+          <ul class="photo-gallery__list">
+            <li class="photo-gallery__item">
+              <article class="photo-gallery__card card">
+                <div class="card__picture card__picture--fixed">
+                  <span class="card__panorama-day">панорама дня</span>
+                  <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Экстрим">
+                </div>
+                <div class="card__about-photo">
+                  <h3 class="card__title">
+                    <span class="card__who">Анна</span>
+                    <time class="card__when" datetime="2020-07-23T19:00">(5 минут назад)</time>
+                  </h3>
+                  <p class="card__description">
+                    Прыгать или нет? Напишите в
+                    комментарии свой совет и
+                    смотрите прямую трансляцию в
+                    перископе, задавайте свои вопросы!
+                  </p>
+                  <div class="card__likes likes">
+                    <div class="likes__wrapper">
+                      <span class="likes__icon"></span>
+                      <span class="likes__count">Нравится: 215</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="photo-gallery__item">
+              <article class="photo-gallery__card card">
+                <div class="card__picture card__picture">
+                  <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Экстрим">
+                </div>
+                <div class="card__about-photo">
+                  <h3 class="card__title">
+                    <span class="card__who">Левон</span>
+                    <time class="card__when" datetime="2020-07-23T14:00">(5 часов назад)</time>
+                  </h3>
+                  <p class="card__description">
+                    Вчера он на луну летал, сегодня в руки к нам попал.
+                  </p>
+                  <div class="card__likes likes">
+                    <div class="likes__wrapper">
+                      <span class="likes__icon"></span>
+                      <span class="likes__count">Нравится: 356</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="photo-gallery__item">
+              <article class="photo-gallery__card card">
+                <div class="card__picture card__picture">
+                  <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Экстрим">
+                </div>
+                <div class="card__about-photo">
+                  <h3 class="card__title">
+                    <span class="card__who">Антон</span>
+                    <time class="card__when" datetime="2020-07-23T7:00">(12 часов назад)</time>
+                  </h3>
+                  <p class="card__description">
+                    Соседи будут рады!
+                  </p>
+                  <div class="card__likes likes">
+                    <div class="likes__wrapper">
+                      <span class="likes__icon"></span>
+                      <span class="likes__count">Нравится: 666</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="photo-gallery__item">
+              <article class="photo-gallery__card card">
+                <div class="card__picture card__picture">
+                  <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Экстрим">
+                </div>
+                <div class="card__about-photo">
+                  <h3 class="card__title">
+                    <span class="card__who">Борис</span>
+                    <time class="card__when" datetime="2020-07-22T23:00">(20 часов назад)</time>
+                  </h3>
+                  <p class="card__description">
+                    Здесь могла быть ваша цитата о высоком и вечном.
+                  </p>
+                  <div class="card__likes likes">
+                    <div class="likes__wrapper">
+                      <span class="likes__icon"></span>
+                      <span class="likes__count">Нравится: 215</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="photo-gallery__item">
+              <article class="photo-gallery__card card">
+                <div class="card__picture card__picture">
+                  <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Экстрим">
+                </div>
+                <div class="card__about-photo">
+                  <h3 class="card__title">
+                    <span class="card__who">Сергей</span>
+                    <time class="card__when" datetime="2020-07-22T18:00">(25 часов назад)</time>
+                  </h3>
+                  <p class="card__description">
+                    Самая кубанская в мире!
+                  </p>
+                  <div class="card__likes likes">
+                    <div class="likes__wrapper">
+                      <span class="likes__icon"></span>
+                      <span class="likes__count">Нравится: 4</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="photo-gallery__item">
+              <article class="photo-gallery__card card">
+                <div class="card__picture card__picture">
+                  <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Экстрим">
+                </div>
+                <div class="card__about-photo">
+                  <h3 class="card__title">
+                    <span class="card__who">Максим</span>
+                    <time class="card__when" datetime="2020-07-21T3:00">(40 часов назад)</time>
+                  </h3>
+                  <p class="card__description">
+                    Где снег-то?
+                  </p>
+                  <div class="card__likes likes">
+                    <div class="likes__wrapper">
+                      <span class="likes__icon"></span>
+                      <span class="likes__count">Нравится: 150</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="photo-gallery__item">
+              <article class="photo-gallery__card card">
+                <div class="card__picture card__picture">
+                  <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Экстрим">
+                </div>
+                <div class="card__about-photo">
+                  <h3 class="card__title">
+                    <span class="card__who">Надежда</span>
+                    <time class="card__when" datetime="2020-07-20T22:00">(45 часов назад)</time>
+                  </h3>
+                  <p class="card__description">
+                    Всем GM и взаимные лайки!
+                  </p>
+                  <div class="card__likes likes">
+                    <div class="likes__wrapper">
+                      <span class="likes__icon"></span>
+                      <span class="likes__count">Нравится: 2560</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--############### main-footer ###############-->
+    <footer class="main-footer">
+      <div class="main-footer__logo logo">
+        <a class="logo__link logo__link--footer">
+          <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Пинк">
+        </a>
+      </div>
+      <div class="main-footer links">
+        <ul class="links__list">
+          <li class="links__item">
+            <a href="#">
+              <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Twitter">
+            </a>
+          </li>
+          <li class="links__item">
+            <a href="#">
+              <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Facebook">
+            </a>
+          </li>
+          <li class="links__item">
+            <a href="#">
+              <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="Youtube">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__copyright copyright">
+        <a href="#" class="copyright__link">
+          <p class="copyright__text">Разработано</p>
+          <div class="copyright__logo">
+            <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="HTML Academy">
+          </div>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
